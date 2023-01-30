@@ -20,5 +20,5 @@ app.use("/",router);
 const port=process.env.PORT || 8080;
 
 app.listen(port,()=>{
-    console.log("Running on port number : 8080");
+    console.log(`Running on port number : ${port}`);
 })
